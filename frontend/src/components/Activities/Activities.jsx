@@ -100,7 +100,7 @@ const Activities = () => {
             <div className="activities-sec w-full flex lg:flex-row flex-col justify-center items-start gap-10 lg:mt-0">
                 <div className='lg:w-1/2 w-full'>
                     <div className="lg:w-[30%] w-[60%]">
-                        <p className="text-[.7rem] text-[#eae5dd] text-nowrap">Offered Nash Studio® activities have different levels of difficulty:</p>
+                        <p className="text-[.7rem] text-[#eae5dd] text-nowrap">Offered Nash Studio activities have different levels of difficulty:</p>
                     </div>
                     <div className="flex flex-col justify-start items-start gap-5 mt-8 mr-14">
                         <div className="w-full mr-14">

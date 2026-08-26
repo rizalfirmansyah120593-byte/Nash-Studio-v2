@@ -41,7 +41,7 @@ const FooterBanner = () => {
                     onMouseLeave={() => setActive(false)}
                     ref={fbImgRef} src={banner} alt="" className='w-full h-full object-cover' />
 
-                <h1 className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[10vw] font-bold text-[#f4efe7]'>Nash Studio<sub className='text-[5vw]'>®</sub></h1>
+                <h1 className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[10vw] font-bold text-[#f4efe7]'>Nash Studio<sub className='text-[5vw]'></sub></h1>
                 <div className='absolute bottom-5 px-4 w-full'>
                     <div className="w-full h-auto flex md:flex-row flex-col md:justify-between md:items-end">
                         <h2

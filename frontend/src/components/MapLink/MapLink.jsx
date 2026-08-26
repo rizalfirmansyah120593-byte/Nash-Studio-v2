@@ -12,7 +12,7 @@ const MapLink = () => {
                 </p>
 
                 <h1 className="text-[5vw] leading-15 tracking-tight mt-5 text-[#f4efe7]">
-                    Our Nash Studio® are located<br />
+                    Our Nash Studio are located<br />
                     near Los Angeles with easy<br />
                 </h1>
             </div>

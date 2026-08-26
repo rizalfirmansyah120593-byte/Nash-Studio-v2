@@ -1,20 +1,20 @@
 export const feedbackH1LG = [
     [
-        "Staying at Nash Studio® in the",
+        "Staying at Nash Studio in the",
         "California desert redefined my",
         "retreat — modern design meets",
         "nature, and every sunset feels",
         "like a serene masterpiece."
     ],
     [
-        "Nash Studio® offered the perfect",
+        "Nash Studio offered the perfect",
         "escape — sleek, modern spaces",
         "surrounded by desert stillness.",
         "Each moment felt peaceful,",
         "grounded, and truly unique."
     ],
     [
-        "Nash Studio® was the perfect",
+        "Nash Studio was the perfect",
         "desert hideaway — stylish,",
         "peaceful, and fully surrounded",
         "by stunning views day and",

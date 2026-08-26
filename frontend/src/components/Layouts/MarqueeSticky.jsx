@@ -37,7 +37,7 @@ const MarqueeSticky = () => {
                     <p className="text-[0.7rem] text-[#eae5dd] choose-subtitle">
                         Want to learn more about
                         <br />
-                        the benefits of—Nash Studio<span>®</span>?
+                        the benefits of—Nash Studio<span></span>?
                     </p>
                 </div>
 

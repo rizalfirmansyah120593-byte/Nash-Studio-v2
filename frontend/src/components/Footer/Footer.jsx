@@ -8,7 +8,7 @@ import MarqueeText from '../Marquee/MarqueeText';
 const Footer = () => {
     return (
         <section className='w-screen h-dvh px-6 mt-10'>
-            <p className='text-[.7rem] text-[#eae5dd] choose-subtitle mt-10'>Interested in an amazing adventure?<br />Reserve one of our Nash Studio<span>®</span></p>
+            <p className='text-[.7rem] text-[#eae5dd] choose-subtitle mt-10'>Interested in an amazing adventure?<br />Reserve one of our Nash Studio<span></span></p>
             <div>
                 <MarqueeText />
             </div>
@@ -25,7 +25,7 @@ const Footer = () => {
                     <a href="#welcome" className='text-[#f2ede5] text-2xl'>Welcome</a>
                     <a href="#welcome" className='text-[#f2ede5] text-2xl'>Introduction</a>
                     <a href="#welcome" className='text-[#f2ede5] text-2xl'>Houses</a>
-                    <a href="#welcome" className='text-[#f2ede5] text-2xl'>Why Nash Studio®</a>
+                    <a href="#welcome" className='text-[#f2ede5] text-2xl'>Why Nash Studio</a>
                     <a href="#welcome" className='text-[#f2ede5] text-2xl'>Activites</a>
                     <a href="#welcome" className='text-[#f2ede5] text-2xl'>Feedback</a>
                 </div>
@@ -41,7 +41,7 @@ const Footer = () => {
 
                 <div>
                     <p className="text-[0.8rem] text-[#b1a696] text-right">
-                        Meet Nash Studio®—modern and cozy<br />
+                        Meet Nash Studio—modern and cozy<br />
                         houses, in the California desert.
                     </p>
                 </div>

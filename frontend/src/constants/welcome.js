@@ -1,6 +1,6 @@
 export const welcomeLinesLG = [
     "Welcome to a world of wild California",
-    "desert with Nash Studio®, where you will",
+    "desert with Nash Studio, where you will",
     "discover exquisite nature observing it",
     "from Nash Studio houses, nestled in the",
     "one of the most breathtaking",
@@ -10,7 +10,7 @@ export const welcomeLinesSM = [
     "Welcome to a world",
     "of wild California",
     "desert with ",
-    "Nash Studio®, where ",
+    "Nash Studio, where ",
     "you will discover ",
     "exquisite nature",
     "observing it from",

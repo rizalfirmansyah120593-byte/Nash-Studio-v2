@@ -30,10 +30,10 @@
     will-change: transform;
 }
 
-/* Specific styling for the ® symbol */
+/* Specific styling for the  symbol */
 .footer-title h1 sub.ftChar {
     /* font-size: 0.5em; */
-    /* Make ® smaller */
+    /* Make  smaller */
     vertical-align: super;
     bottom: 0;
 }

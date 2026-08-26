@@ -45,7 +45,7 @@ const Hero = () => {
                             className="text-[#f4efe7] text-start text-6xl md:text-9xl font-bold tracking-wider lg:absolute lg:left-2"
                             style={{ textShadow: '2px 2px 4px #aaa' }}
                         >
-                            Nash Studio®
+                            Nash Studio
                         </h1>
 
                         <div className="w-full h-auto absolute  top-24 md:bottom-[8%] lg:bottom-[9%] flex md:flex-row flex-col md:justify-between md:items-end">

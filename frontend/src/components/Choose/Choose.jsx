@@ -61,7 +61,7 @@ const Choose = () => {
 
     return (
         <section className="choose-section w-full h-dvh p-8 pt-10">
-            <p className='text-[.7rem] text-[#eae5dd] choose-subtitle'>Discover Available Nash Studio<span>®</span></p>
+            <p className='text-[.7rem] text-[#eae5dd] choose-subtitle'>Discover Available Nash Studio<span></span></p>
             <div className="lg:mt-10 mt-7 title-part origin-bottom ">
                 {
                     chooseLines.map((line, index) => (
@@ -77,7 +77,7 @@ const Choose = () => {
                 </div>
                 <div className='lg:w-1/2 w-full'>
                     <div className=" lg:w-[30%] w-[60%]">
-                        <p className="text-[.7rem] text-[#eae5dd]">All Nash Studio® houses—has built
+                        <p className="text-[.7rem] text-[#eae5dd]">All Nash Studio houses—has built
                             based on the same rules:</p>
                     </div>
                     <div className="flex flex-1 flex-wrap justify-start items-start gap-2 mt-8">

@@ -84,7 +84,7 @@ const FooterTitle = () => {
 
             <div className='footer-title w-full text-center'>
                 <h1 className='text-[18vw] font-bold'>
-                    Nash Studio<sub>®</sub>
+                    Nash Studio<sub></sub>
                 </h1>
             </div>
         </section>
