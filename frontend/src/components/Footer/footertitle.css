@@ -1,0 +1,39 @@
+.footer-title {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100% - 2rem);
+    text-align: center;
+    z-index: 2;
+    overflow: visible;
+}
+
+.footer-title h1 {
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+    font-size: clamp(4rem, 13vw, 11rem);
+    line-height: 0.82;
+    color: #f4efe7;
+    white-space: nowrap;
+}
+
+.ftChar {
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+}
+
+.ftChar>span {
+    display: inline-block;
+    will-change: transform;
+}
+
+/* Specific styling for the ® symbol */
+.footer-title h1 sub.ftChar {
+    /* font-size: 0.5em; */
+    /* Make ® smaller */
+    vertical-align: super;
+    bottom: 0;
+}
