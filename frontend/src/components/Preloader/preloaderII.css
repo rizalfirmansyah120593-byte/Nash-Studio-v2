@@ -22,7 +22,7 @@
     transform: translateX(-50%) scaleX(0);
     width: 55%;
     height: 100%;
-    background-color: var(--base-300);
+    background-color: #FF6B00;
     transform-origin: left;
     will-change: transform;
 }
@@ -34,13 +34,13 @@
     transform: translate(-50%, -50%);
     width: 100%;
     text-align: center;
-    mix-blend-mode: difference;
+    mix-blend-mode: normal;
     z-index: 2;
 }
 
 .preloader-logo h1 {
     position: relative;
-    color: var(--base-300);
+    color: #000000;
     font-size: 3.5rem;
     font-weight: 600;
     line-height: 1;

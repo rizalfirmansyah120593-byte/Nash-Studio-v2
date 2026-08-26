@@ -33,32 +33,16 @@ const Hero = () => {
         <section className="hero-section w-dvw md:h-dvh h-[100vh] md:p-2 p-2.5 mb-20">
             <div className="relative w-full h-full rounded-[2.5rem] overflow-hidden">
                 <div className="responsive-mobile">
-                    {/* Background image (down layer) */}
                     <div className="hero-img absolute inset-0 bg-[url('./assets/cap1.png')] bg-no-repeat bg-cover bg-center z-0 md:block hidden" />
-
-                    {/* Mobile image fallback */}
                     <div className="block lg:hidden mt-6 mb-6">
-                        <img
-                            src={mobileHeroBg}
-                            alt="mobile bg"
-                            className="w-full rounded-[2rem] object-cover shadow-[0_-25px_45px_-10px_rgba(255,0,0,0.15)]"
-                        />
+                        <img src={mobileHeroBg} alt="mobile bg" className="w-full rounded-[2rem] object-cover shadow-[0_-25px_45px_-10px_rgba(255,0,0,0.15)]" />
                     </div>
-
-                    {/* Smoke video (upper layer) */}
-                    <video
-                        src={smoke}
-                        autoPlay
-                        loop
-                        muted
-                        playsInline
-                        className="absolute inset-0 md:w-full md:h-full object-cover z-10 pointer-events-none object-center opacity-50 mix-blend-hard-light md:top-0 top-[5%] h-[90%]  rounded-[2rem] md:px-0"
-                    ></video>
+                    <video src={smoke} autoPlay loop muted playsInline className="absolute inset-0 md:w-full md:h-full object-cover z-10 pointer-events-none object-center opacity-50 mix-blend-hard-light md:top-0 top-[5%] h-[90%] rounded-[2rem] md:px-0"></video>
                 </div>
                 <div className="p-4 flex flex-col md:justify-center">
                     <div className="relative h-dvh">
                         <h1
-                            className="text-[#f4efe7] text-start text-6xl md:text-9xl font-bold tracking-wider lg:absolute  lg:left-2"
+                            className="text-[#f4efe7] text-start text-6xl md:text-9xl font-bold tracking-wider lg:absolute lg:left-2"
                             style={{ textShadow: '2px 2px 4px #aaa' }}
                         >
                             Nash Studio®
@@ -75,7 +59,7 @@ const Hero = () => {
                             </h2>
 
                             <p
-                                className="md:w-[20%] w-[80%] text-[#f4efe7] text-[0.7rem] font-bold  md:font-medium tracking-wide lg:text-end mt-2 text-justify"
+                                className="md:w-[20%] w-[80%] text-[#f4efe7] text-[0.7rem] font-bold md:font-medium tracking-wide lg:text-end mt-2 text-justify"
                                 style={{ textShadow: '2px 2px 4px #000' }}
                             >
                                 Spend unforgettable and remarkable time in the Californian desert with—Nash Studio.
