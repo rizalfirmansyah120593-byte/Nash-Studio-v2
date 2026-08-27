@@ -131,6 +131,35 @@ body {
 	/* background-position: center; */
 }
 
+.welcome-ui-card {
+	width: clamp(9rem, 16vw, 14rem);
+	height: clamp(12rem, 22vw, 18rem);
+	padding: 1.25rem;
+	border: 1px solid rgba(255, 255, 255, 0.45);
+	border-radius: 1.5rem;
+	background: linear-gradient(145deg, #202020, #080808);
+	box-shadow: 0 20px 45px rgba(0, 0, 0, 0.25);
+	transform: rotate(-5deg);
+	transition: transform 0.45s ease, border-color 0.45s ease;
+}
+
+.welcome-ui-card-preview {
+	transform: translateY(2rem) rotate(6deg);
+	border-color: rgba(255, 107, 0, 0.65);
+}
+
+.welcome-ui-cards:hover .welcome-ui-card-growth { transform: translateY(-0.5rem) rotate(-8deg); border-color: #FF6B00; }
+.welcome-ui-cards:hover .welcome-ui-card-preview { transform: translateY(1.5rem) rotate(9deg); }
+.welcome-ui-card-growth i { display: block; width: 12%; border-radius: 0.2rem 0.2rem 0 0; background: #FF6B00; opacity: 0.8; }
+.welcome-ui-card-growth i:nth-child(2) { opacity: 0.55; }
+.welcome-ui-card-growth i:nth-child(4) { opacity: 0.65; }
+.welcome-ui-card-preview i { display: block; width: 0.35rem; height: 0.35rem; border-radius: 50%; background: #FF6B00; }
+
+@media (max-width: 768px) {
+	.welcome-ui-card { width: 8.5rem; height: 11rem; padding: 0.9rem; }
+	.welcome-ui-card-preview { transform: translateY(1rem) rotate(6deg); }
+}
+
 .sticky-cols .package-title {
 	align-self: center;
 	text-align: center;

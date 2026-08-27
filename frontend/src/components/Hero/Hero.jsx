@@ -42,13 +42,13 @@ const Hero = () => {
                 <div className="p-4 flex flex-col md:justify-center">
                     <div className="relative h-dvh">
                         <h1
-                            className="text-[#f4efe7] text-start text-6xl md:text-9xl font-bold tracking-wider lg:absolute lg:left-2"
+                            className="absolute left-2 top-2 z-20 text-[#f4efe7] text-start text-6xl md:text-9xl font-bold tracking-wider"
                             style={{ textShadow: '2px 2px 4px #aaa' }}
                         >
                             Nash Studio
                         </h1>
 
-                        <div className="w-full h-auto absolute  top-24 md:bottom-[8%] lg:bottom-[9%] flex md:flex-row flex-col md:justify-between md:items-end">
+                        <div className="absolute bottom-[8%] left-0 z-20 flex h-auto w-full flex-col md:flex-row md:items-end md:justify-between">
                             <h2
                                 className="text-start lg:mt-0 md:text-[#f4efe7] text-[#b1a696] text-2xl font-bold md:tracking-wider leading-5 flex flex-col gap-1"
                                 style={{ textShadow: '2px 2px 4px #000' }}

@@ -2,8 +2,6 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap/all";
 import { useMediaQuery } from "react-responsive";
 import { welcomeLinesLG, welcomeLinesSM } from "../../constants/welcome";
-import w1 from "../../assets/welcome-1.png"
-import w2 from "../../assets/welcome-2.png"
 
 const Welcome = () => {
 
@@ -48,9 +46,18 @@ const Welcome = () => {
                 </div>
             </div>
             <div className="flex md:flex-row flex-col justify-between items-center md:p-4 md:mt-20 mt-10">
-                <div className="flex flex-row justify-center items-center gap-1">
-                    <img src={w1} alt="welcome image" className="md:rounded-[8rem] rounded-[9rem] md:w-56 w-44" />
-                    <img src={w2} alt="welcome image" className="md:rounded-[8rem] rounded-[9rem] md:w-56 w-44" />
+                <div className="welcome-ui-cards flex flex-row justify-center items-center gap-3">
+                    <div className="welcome-ui-card welcome-ui-card-growth">
+                        <div className="flex items-center justify-between text-[0.55rem] uppercase tracking-[0.2em] text-white/60"><span>Growth dashboard</span><span className="h-2 w-2 rounded-full bg-[#FF6B00]" /></div>
+                        <div className="mt-8 text-3xl font-semibold text-white">+42%</div>
+                        <p className="mt-1 text-[0.6rem] text-white/50">qualified leads this month</p>
+                        <div className="mt-7 flex h-12 items-end gap-1"><i className="h-1/3" /><i className="h-2/5" /><i className="h-3/5" /><i className="h-1/2" /><i className="h-4/5" /><i className="h-full" /></div>
+                    </div>
+                    <div className="welcome-ui-card welcome-ui-card-preview">
+                        <div className="flex items-center gap-1"><i /><i /><i /><span className="ml-2 text-[0.5rem] text-white/50">nash.studio</span></div>
+                        <div className="mt-8 h-3 w-3/5 rounded bg-white/90" /><div className="mt-2 h-2 w-2/5 rounded bg-white/25" />
+                        <div className="mt-7 flex items-center justify-between"><span className="text-[0.55rem] uppercase tracking-widest text-[#FF6B00]">Web design</span><span className="rounded-full bg-[#FF6B00] px-2 py-1 text-[0.5rem] text-black">Explore</span></div>
+                    </div>
                 </div>
                 <div className="md:w-1/2 w-full md:mt-0 mt-10">
                     <p className="md:text-[2rem] text-[1.3rem] text-[#b1a696] md:leading-[1.1] md:pr-24 font-normal leading-[26px] tracking-[-0.2px]">
