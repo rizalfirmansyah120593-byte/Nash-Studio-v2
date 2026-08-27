@@ -148,6 +148,20 @@ body {
 	border-color: rgba(255, 107, 0, 0.65);
 }
 
+.hero-project-slider {
+	perspective: 900px;
+}
+
+.hero-slide-card {
+	transform-style: preserve-3d;
+	will-change: transform, opacity;
+	transition: border-color 0.3s ease;
+}
+
+.hero-slide-card:hover {
+	border-color: #FF6B00;
+}
+
 .welcome-ui-cards:hover .welcome-ui-card-growth { transform: translateY(-0.5rem) rotate(-8deg); border-color: #FF6B00; }
 .welcome-ui-cards:hover .welcome-ui-card-preview { transform: translateY(1.5rem) rotate(9deg); }
 .welcome-ui-card-growth i { display: block; width: 12%; border-radius: 0.2rem 0.2rem 0 0; background: #FF6B00; opacity: 0.8; }

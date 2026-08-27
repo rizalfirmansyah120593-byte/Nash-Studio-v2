@@ -3,12 +3,46 @@ import smoke from "../../assets/smoke_final.mp4";
 import mobileHeroBg from "../../assets/hero-mobile.png"
 import { useGSAP } from "@gsap/react";
 import { useMediaQuery } from "react-responsive";
+import { useEffect, useRef, useState } from "react";
+import preview1 from "../../assets/preview1.png";
+import preview2 from "../../assets/preview2.png";
+import preview3 from "../../assets/preview3.png";
+
+const heroSlides = [
+    { image: preview1, label: "Portfolio", title: "Personal brand website" },
+    { image: preview2, label: "Entertainment", title: "Streaming experience" },
+    { image: preview3, label: "Digital product", title: "Custom web interface" },
+];
 
 const Hero = () => {
 
     const isMobHero = useMediaQuery({
         query: "(max-width:768px)",
     });
+    const [activeSlide, setActiveSlide] = useState(0);
+    const sliderRef = useRef(null);
+
+    useEffect(() => {
+        const timer = window.setInterval(() => setActiveSlide((slide) => (slide + 1) % heroSlides.length), 5000);
+        return () => window.clearInterval(timer);
+    }, []);
+
+    useGSAP(() => {
+        const cards = gsap.utils.toArray(".hero-slide-card");
+        cards.forEach((card, index) => {
+            const offset = (index - activeSlide + heroSlides.length) % heroSlides.length;
+            gsap.to(card, {
+                x: offset === 0 ? 0 : offset === 1 ? 34 : 68,
+                y: offset === 0 ? 0 : offset === 1 ? 14 : 28,
+                rotateY: offset === 0 ? 0 : offset === 1 ? -8 : -14,
+                scale: offset === 0 ? 1 : offset === 1 ? 0.9 : 0.8,
+                opacity: offset === 0 ? 1 : offset === 1 ? 0.55 : 0.2,
+                zIndex: 3 - offset,
+                duration: 1,
+                ease: "power4.out",
+            });
+        });
+    }, { scope: sliderRef, dependencies: [activeSlide] });
 
 
     useGSAP(() => {
@@ -33,7 +67,7 @@ const Hero = () => {
         <section className="hero-section w-dvw md:h-dvh h-[100vh] md:p-2 p-2.5 mb-20">
             <div className="relative w-full h-full rounded-[2.5rem] overflow-hidden">
                 <div className="responsive-mobile">
-                    <div className="hero-img absolute inset-0 bg-[url('./assets/cap1.png')] bg-no-repeat bg-cover bg-center z-0 md:block hidden" />
+                    <div className="hero-img absolute inset-0 bg-[url('./assets/background1.png')] bg-no-repeat bg-cover bg-center z-0 md:block hidden" />
                     <div className="block lg:hidden mt-6 mb-6">
                         <img src={mobileHeroBg} alt="mobile bg" className="w-full rounded-[2rem] object-cover shadow-[0_-25px_45px_-10px_rgba(255,0,0,0.15)]" />
                     </div>
@@ -66,6 +100,14 @@ const Hero = () => {
                             </p>
                         </div>
                     </div>
+                </div>
+                <div ref={sliderRef} className="hero-project-slider absolute right-[8%] top-1/2 z-20 hidden h-52 w-64 -translate-y-1/2 md:block" aria-label="Project preview slider">
+                    {heroSlides.map((slide, index) => <button key={slide.title} type="button" onClick={() => setActiveSlide(index)} className="hero-slide-card absolute inset-0 overflow-hidden rounded-2xl border border-white/50 bg-black text-left shadow-2xl">
+                        <img src={slide.image} alt={slide.title} className="h-full w-full object-cover opacity-70" />
+                        <span className="absolute left-4 top-4 text-[9px] uppercase tracking-[0.25em] text-white/80">{slide.label}</span>
+                        <span className="absolute bottom-4 left-4 right-4 text-sm font-semibold text-white">{slide.title}</span>
+                    </button>)}
+                    <div className="absolute -bottom-10 left-0 flex items-center gap-2 text-[10px] uppercase tracking-widest text-white/70"><span>{String(activeSlide + 1).padStart(2, "0")}</span><span className="h-px w-8 bg-[#FF6B00]" /><span>03</span></div>
                 </div>
             </div>
         </section>

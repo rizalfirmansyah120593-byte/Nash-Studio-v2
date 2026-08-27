@@ -1,4 +1,4 @@
-import { IoMdClose, IoMdMenu } from "react-icons/io";
+import { IoMdClose, IoMdMenu, IoMdArrowUp } from "react-icons/io";
 import { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
 
@@ -32,6 +32,9 @@ const Navbar = () => {
     </div>
     <button onClick={() => setIsOpen((open) => !open)} aria-label={isOpen ? "Close menu" : "Open menu"} className="fixed bottom-8 left-1/2 z-50 flex h-10 -translate-x-1/2 items-center gap-2 rounded-4xl bg-[#f4efe7] p-1 pl-4 text-[12px] text-[#2a2725]">
       <span>{isOpen ? "Close" : "Menu"}</span><span className="rounded-full bg-[#2a2725] p-2">{isOpen ? <IoMdClose className="text-[#FF6B00]" /> : <IoMdMenu className="text-[#b1a696]" />}</span>
+    </button>
+    <button onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })} aria-label="Kembali ke atas" title="Kembali ke atas" className="fixed bottom-8 right-6 z-50 rounded-full border border-white bg-[#0b0b0b] p-3 text-[#FF6B00] transition hover:bg-[#FF6B00] hover:text-black">
+      <IoMdArrowUp className="h-5 w-5" />
     </button>
   </>;
 };
