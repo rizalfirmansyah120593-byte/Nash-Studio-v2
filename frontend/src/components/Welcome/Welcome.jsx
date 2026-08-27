@@ -53,9 +53,9 @@ const Welcome = () => {
                     <img src={w2} alt="welcome image" className="md:rounded-[8rem] rounded-[9rem] md:w-56 w-44" />
                 </div>
                 <div className="md:w-1/2 w-full md:mt-0 mt-10">
-                    <p className="md:text-[2rem] text-[1.4rem] text-[#b1a696] md:leading-[1.1] md:pr-24 font-normal leading-[26px] tracking-[-0.2px]">
-                        <span>A place where you can be with yourself and your loved ones.</span><br />
-                        <span>A place where you can experience unforgettable desert things.</span>
+                    <p className="md:text-[2rem] text-[1.3rem] text-[#b1a696] md:leading-[1.1] md:pr-24 font-normal leading-[26px] tracking-[-0.2px]">
+                        <span>Kami membantu bisnis membangun website profesional yang cepat, responsif, dan kuat secara visual.</span><br />
+                        <span>Dengan strategi web design, teknologi modern, dan SEO, Nash Studio menciptakan pengalaman digital yang meningkatkan kepercayaan dan konversi.</span>
                     </p>
                 </div>
             </div>

@@ -78,22 +78,13 @@ const StickyCols = () => {
                 <div className="col col-1">
                     <div className="col-content">
                         <div className="col-content-wrapper">
-                            <h1 className="text-2xl text-[#b1a696] font-bold leading-auto">Enjoy the view
-                                <br />
-                                through—the wide
-                                <br />
-                                panoramic glass
-                                <br />
-                                window
-                            </h1>
+                            <h1 className="package-title text-[#070707] font-bold leading-auto">Paket Basic</h1>
                             <div className="col-content-para flex items-center gap-4 justify-between">
                                 <div className="flex items-center gap-0 justify-center">
                                     <h3 className="border-1 px-3 py-1 rounded-full text-[#aaa091]">1</h3>
                                     <h3 className="border-1 px-3 py-1 rounded-full text-[#524e4b]">3</h3>
                                 </div>
-                                <p className={`text-[12px] font-medium  ${!reveal ? "mr-6" : "mr-0"}`}> Get closer to the desert nature than ever before
-                                    <br />
-                                    and admire this unique, breathtaking landscape.
+                                <p className={`text-[12px] font-medium  ${!reveal ? "mr-6" : "mr-0"}`}>Landing page profesional untuk memperkenalkan bisnis Anda.<br />Mulai Rp1.000.000 · cepat dan responsif.<br />Desain visual premium yang memperkuat brand.<br />Struktur halaman fokus pada konversi.<br />Tampilan optimal di desktop dan mobile.<br />Integrasi tombol WhatsApp dan media sosial.<br />Form kontak untuk menangkap calon pelanggan.<br />Optimasi kecepatan dan pengalaman pengguna.<br />Setup domain dan hosting siap pakai.
                                 </p>
                             </div>
 
@@ -114,42 +105,24 @@ const StickyCols = () => {
                 </div>
                 <div className="col col-3">
                     <div className="col-content-wrapper">
-                        <h1 className="text-2xl font-bold leading-auto">Enjoy the view
-                            <br />
-                            through—the wide
-                            <br />
-                            panoramic glass
-                            <br />
-                            window
-                        </h1>
+                        <h1 className="package-title font-bold leading-auto">Paket Standard</h1>
                         <div className={`col-content-para flex items-center gap-4 justify-between ${reveal ? "ml-0" : "ml-6"}`}>
                             <div className="flex items-center gap-0 justify-center">
                                 <h3 className="border-1 px-3 py-1 rounded-full text-[#aaa091]">{(reveal) ? "3" : "2"}</h3>
                                 <h3 className="border-1 px-3 py-1 rounded-full text-[#524e4b]">3</h3>
                             </div>
-                            <p className="text-[12px] font-medium"> Get closer to the desert nature than ever before
-                                <br />
-                                and admire this unique, breathtaking landscape.
+                            <p className="text-[12px] font-medium">Company profile lengkap dengan desain premium dan SEO dasar.<br />Mulai dari Rp2.000.000 · profesional dan mudah ditemukan.<br />Halaman layanan yang jelas dan persuasif.<br />Copywriting yang membangun kepercayaan.<br />Galeri proyek atau portofolio bisnis.<br />Optimasi kata kunci lokal untuk Google.<br />Integrasi Google Maps dan WhatsApp.<br />Formulir inquiry untuk meningkatkan leads.<br />Laporan dasar performa website.
                             </p>
                         </div>
                     </div>
                     <div className="col-content-wrapper-2">
-                        <h1 className="text-2xl font-bold leading-auto">Enjoy the view
-                            <br />
-                            through—the wide
-                            <br />
-                            panoramic glass
-                            <br />
-                            window
-                        </h1>
+                        <h1 className="package-title font-bold leading-auto">Paket Advanced</h1>
                         <div className="col-content-para flex items-center gap-4 justify-between">
                             <div className="flex items-center gap-0 justify-center">
                                 {/* <h3 className="border-1 px-3 py-1 rounded-full text-[#aaa091]">3</h3>
                                 <h3 className="border-1 px-3 py-1 rounded-full text-[#524e4b]">3</h3> */}
                             </div>
-                            <p className={`text-[12px] font-medium  ${!reveal ? "mr-0" : "mr-6"}`}> Get closer to the desert nature than ever before
-                                <br />
-                                and admire this unique, breathtaking landscape.
+                            <p className={`text-[12px] font-medium  ${!reveal ? "mr-0" : "mr-6"}`}>Website custom dengan fitur dinamis dan strategi konversi.<br />Mulai dari Rp3.000.000 · dirancang untuk scale-up.<br />Arsitektur website sesuai alur bisnis Anda.<br />Fitur custom untuk kebutuhan operasional.<br />Dashboard atau integrasi sistem pihak ketiga.<br />SEO teknis dan struktur konten strategis.<br />Optimasi performa untuk pengalaman cepat.<br />Analytics untuk mengukur hasil kampanye.<br />Dukungan pengembangan yang fleksibel.
                             </p>
                         </div>
                     </div>

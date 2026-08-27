@@ -1,33 +1,31 @@
 export const welcomeLinesLG = [
-    "Welcome to a world of wild California",
-    "desert with Nash Studio, where you will",
-    "discover exquisite nature observing it",
-    "from Nash Studio houses, nestled in the",
-    "one of the most breathtaking",
-    "destination on the United States.",
+    "Nash Studio adalah partner",
+    "jasa pembuatan website profesional",
+    "untuk bisnis modern di Indonesia.",
+    "Kami merancang website premium,",
+    "cepat, responsif, SEO-friendly,",
+    "dan siap mendorong pertumbuhan bisnis.",
 ];
 export const welcomeLinesSM = [
-    "Welcome to a world",
-    "of wild California",
-    "desert with ",
-    "Nash Studio, where ",
-    "you will discover ",
-    "exquisite nature",
-    "observing it from",
-    "Nash Studio houses,",
-    "nestled in the one",
-    "of the most",
-    "breathtaking",
-    "destination on the",
-    "United States.",
+    "Nash Studio adalah",
+    "partner jasa pembuatan",
+    "website profesional",
+    "untuk bisnis modern",
+    "di Indonesia.",
+    "Website premium yang",
+    "cepat dan responsif,",
+    "dengan desain terbaik,",
+    "struktur SEO-friendly,",
+    "dan fokus pada",
+    "pertumbuhan bisnis.",
 ];
 
 export const chooseLinesLG =[
-    "Choose the one",
-    "you like best"
+    "Bangun website",
+    "yang terbaik"
 ];
 export const chooseLinesSM =[
-    "Choose the",
-    "one you like",
-    "best"
+    "Bangun",
+    "website terbaik",
+    "untuk bisnis Anda"
 ];

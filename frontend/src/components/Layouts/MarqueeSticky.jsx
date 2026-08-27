@@ -35,9 +35,8 @@ const MarqueeSticky = () => {
             <div className="pin-con relative">
                 <div className="pl-8">
                     <p className="text-[0.7rem] text-[#eae5dd] choose-subtitle">
-                        Want to learn more about
-                        <br />
-                        the benefits of—Nash Studio<span></span>?
+                        Ready to start your digital journey? Choose the right plan with—Nash Studio
+                        <span></span>?
                     </p>
                 </div>
 

@@ -83,7 +83,7 @@ const MarqueeText = () => {
     // Create multiple marquee items
     const marqueeItems = Array(6).fill(null).map((_, index) => (
         <div key={index} className="marquee-text-marquee">
-            <h1>Why Nash Studio?<span className='star-rotate'>*</span></h1>
+            <h1>Build Better. Grow Faster.<span className='star-rotate'>*</span></h1>
         </div>
     ));
 

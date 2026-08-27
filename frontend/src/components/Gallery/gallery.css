@@ -86,7 +86,7 @@
 .gallery-bottomText {
     position: absolute;
     width: 100%;
-    top: 50%;
+    top: 12%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #f4efe7;
@@ -97,7 +97,8 @@
 }
 
 .gallery-bottomText {
-    top: 92%;
+    top: 70%;
+    justify-content: flex-start;
 }
 
 .gallery-topText h4,
@@ -109,17 +110,39 @@
 }
 
 .gallery-topText h4 {
-    font-size: 5rem;
+    display: inline-flex;
+    align-items: center;
+    padding: 0.45rem 1.2rem;
+    border: 1px solid #ffffff;
+    border-radius: 999px;
+    background: #000000;
+    font-size: 2rem;
     font-weight: 400;
+    line-height: 1;
 }
 
 .gallery-topText h3 {
-    font-size: 3rem;
+    font-size: 1.8rem;
+    line-height: 1.05;
+    text-align: right;
+}
+
+.gallery-topText {
+    justify-content: center;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.gallery-topText .gallery-price {
+    color: #FF6B00;
+    font-weight: 700;
 }
 
 .gallery-bottomText h3 {
     width: 100%;
-    font-size: 0.8rem;
+    max-width: 32rem;
+    font-size: 1.2rem;
+    line-height: 1.25;
     margin-left: 1rem;
 }
 

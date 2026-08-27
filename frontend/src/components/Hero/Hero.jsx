@@ -54,15 +54,15 @@ const Hero = () => {
                                 style={{ textShadow: '2px 2px 4px #000' }}
                             >
                                 <span>Closer to</span>
-                                <span>Nature—Closer</span>
-                                <span>to Yourself</span>
+                                <span>Digital — Closer</span>
+                                <span>to Growth</span>
                             </h2>
 
                             <p
                                 className="md:w-[20%] w-[80%] text-[#f4efe7] text-[0.7rem] font-bold md:font-medium tracking-wide lg:text-end mt-2 text-justify"
                                 style={{ textShadow: '2px 2px 4px #000' }}
                             >
-                                Spend unforgettable and remarkable time in the Californian desert with—Nash Studio.
+                                Transform your digital presence and scale your business with—Nash Studio.
                             </p>
                         </div>
                     </div>

@@ -131,6 +131,96 @@ body {
 	/* background-position: center; */
 }
 
+.sticky-cols .package-title {
+	align-self: center;
+	text-align: center;
+	font-size: clamp(3rem, 6vw, 6rem);
+	line-height: 2;
+	letter-spacing: 0.02em;
+	color: #000000 !important;
+	-webkit-text-stroke: 2px #ffffff;
+	text-shadow: 0 0 1px #ffffff;
+}
+
+/* Keep package details readable and visually balanced inside the content panels. */
+.sticky-cols .col-content-wrapper,
+.sticky-cols .col-content-wrapper-2 {
+	justify-content: flex-start;
+	gap: clamp(2rem, 8vh, 5rem);
+}
+
+.sticky-cols .col-content-para {
+	align-items: flex-start;
+	gap: 1.5rem;
+	margin-bottom: 5vh;
+}
+
+.sticky-cols .col-content-para p {
+	max-width: 34rem;
+	margin-left: 0;
+	font-size: clamp(0.95rem, 1.2vw, 1.2rem);
+	line-height: 1.5;
+	letter-spacing: 0.01em;
+}
+
+.feedback-marquee { overflow: hidden; width: 100%; }
+.feedback-track { display: flex; width: max-content; gap: 1rem; animation: feedback-scroll 55s linear infinite; }
+.feedback-marquee-reverse .feedback-track { animation-direction: reverse; }
+.feedback-card { width: min(78vw, 23rem); min-height: 10rem; padding: 1.25rem; border: 3px solid #ffffff; border-radius: 1.5rem; background: #181717; color: #f4efe7; flex: 0 0 auto; display: flex; flex-direction: column; justify-content: space-between; }
+.feedback-card p { font-size: 1rem; line-height: 1.35; }
+.feedback-card span { font-size: 0.7rem; color: #ffffff; }
+@keyframes feedback-scroll { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+
+.activities-sec > div:last-child p {
+	max-width: 42rem;
+	overflow-wrap: anywhere;
+}
+
+.showcase-centered-title {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	white-space: nowrap;
+	text-align: center;
+	font-size: 1.875rem;
+	font-weight: 700;
+	line-height: 1.1;
+	color: #ffffff;
+}
+
+.showcase-centered-title {
+	color: #ffffff;
+}
+
+.showcase-display-button {
+	position: relative;
+	z-index: 20;
+	border: 2px solid #ffffff;
+	border-radius: 999px;
+	background: #000000;
+	padding: 0.65rem 1.1rem;
+	font-size: 0.9rem;
+}
+
+.showcase-tilt-image {
+	transform-style: preserve-3d;
+	will-change: transform;
+}
+
+@media (max-width: 768px) {
+	.showcase-centered-title {
+		font-size: 1.25rem;
+	}
+}
+
+@media (max-width: 768px) {
+	.activities-sec > div:last-child p {
+		font-size: 1.25rem;
+		line-height: 1.25;
+	}
+}
+
 /* --------------- Welcome Section Styles -------------- */
 
 .text-darkBrown {
@@ -199,6 +289,19 @@ body {
 /* ------------------ Sticky Section Style ------------------- */
 .sticky-cols {
 	padding: 0rem;
+
+	.package-title {
+		width: 100%;
+		text-align: center;
+		font-family: Impact, "Arial Black", sans-serif;
+		font-size: clamp(2.5rem, 5vw, 5.5rem);
+	font-weight: 900;
+		line-height: 0.95;
+		letter-spacing: 0.03em;
+		color: #000000 !important;
+		-webkit-text-stroke: 1px #ffffff;
+		text-shadow: none;
+	}
 
 	/* .sticky-cols-wrapper {
 		position: relative;

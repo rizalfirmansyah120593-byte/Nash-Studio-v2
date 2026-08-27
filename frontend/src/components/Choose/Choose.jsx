@@ -61,7 +61,7 @@ const Choose = () => {
 
     return (
         <section className="choose-section w-full h-dvh p-8 pt-10">
-            <p className='text-[.7rem] text-[#eae5dd] choose-subtitle'>Discover Available Nash Studio<span></span></p>
+            <p className='text-[.7rem] text-[#eae5dd] choose-subtitle'>Solusi Digital Nash Studio<span></span></p>
             <div className="lg:mt-10 mt-7 title-part origin-bottom ">
                 {
                     chooseLines.map((line, index) => (
@@ -73,7 +73,7 @@ const Choose = () => {
             </div>
             <div className="choose-sec w-full flex lg:flex-row flex-col justify-center items-start gap-10 lg:mt-0">
                 <div className='lg:w-1/2 w-full text-[#b1a696] lg:text-[2rem] text-[1rem] md:leading-[1.1] lg:mt-0 mt-8 lg:pr-16'>
-                    <p>You can choose one of three premium Nash Studio houses in our offer. Each Nash Studio provides the highest quality and meets the standards adjusted to your needs. Choose the one you like.</p>
+                    <p>Wujudkan website profesional yang membuat bisnis Anda lebih dipercaya, mudah ditemukan di Google, dan siap mengubah pengunjung menjadi pelanggan. Nash Studio menghadirkan web design premium dan pengembangan website modern yang dirancang khusus untuk kebutuhan bisnis Anda.</p>
                 </div>
                 <div className='lg:w-1/2 w-full'>
                     <div className=" lg:w-[30%] w-[60%]">
@@ -82,22 +82,22 @@ const Choose = () => {
                     </div>
                     <div className="flex flex-1 flex-wrap justify-start items-start gap-2 mt-8">
                         <div className="border-[1px] border-[#b1a696] text-[#b1a696] lg:text-[2rem] px-[20px] py-[4px] rounded-full">
-                            Sustainable
+                            Strategis
                         </div>
                         <div className="border-[1px] border-[#f4efe7] text-[#f4efe7] lg:text-[2rem] px-[20px] py-[4px] rounded-full">
-                            Nature—Care
+                            SEO-Friendly
                         </div>
                         <div className="border-[1px] border-[#b1a696] text-[#b1a696] lg:text-[2rem] px-[20px] py-[4px] rounded-full">
-                            Smart
+                            Responsif
                         </div>
                         <div className="border-[1px] border-[#f4efe7] text-[#f4efe7] lg:text-[2rem] px-[20px] py-[4px] rounded-full">
-                            Privacy
+                            Aman
                         </div>
                         <div className="border-[1px] border-[#b1a696] text-[#b1a696] lg:text-[2rem] px-[20px] py-[4px] rounded-full">
-                            Spacious
+                            Cepat
                         </div>
                         <div className="border-[1px] border-[#f4efe7] text-[#f4efe7] lg:text-[2rem] px-[20px] py-[4px] rounded-full">
-                            Glassed-in
+                            Berorientasi Konversi
                         </div>
                     </div>
                 </div>

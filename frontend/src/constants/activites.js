@@ -1,4 +1,6 @@
 export const activitiesLinesLG = [
-    "Discover the",
-    "desert activities"
+    "Jelajahi layanan",
+    "pembuatan website"
 ]
+
+export const activitiesLinesSM = ["Jelajahi layanan", "pembuatan", "website"]

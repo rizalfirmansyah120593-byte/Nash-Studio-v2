@@ -11,9 +11,9 @@ const MapLink = () => {
                     Closer than you think
                 </p>
 
-                <h1 className="text-[5vw] leading-15 tracking-tight mt-5 text-[#f4efe7]">
-                    Our Nash Studio are located<br />
-                    near Los Angeles with easy<br />
+                <h1 className="text-[4vw] leading-15 tracking-tight mt-5 text-[#f4efe7]">
+                    Nash Studio siap membantu transformasi<br />
+                    digital bisnis Anda secara online dan mudah diakses dari mana saja.<br />
                 </h1>
             </div>
 

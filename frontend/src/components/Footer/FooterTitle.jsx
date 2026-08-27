@@ -69,21 +69,21 @@ const FooterTitle = () => {
     }, { scope: ftConRef });
 
     return (
-        <section ref={ftConRef} className='relative z-1 w-screen h-[40vh] border-1 border-t-[#c4c1b9]'>
-            <div className='w-full flex justify-between items-center px-6 mt-8'>
+        <section ref={ftConRef} className='relative z-1 w-screen min-h-[46vh] overflow-hidden'>
+            <div className='footer-meta w-full grid grid-cols-3 items-start gap-4 border-b border-[#c4c1b9] px-6 pb-6 pt-6'>
                 <p className='text-[#b1a696] text-[0.7rem]'>
                     Website made by—<a href="#" className='text-[#f2ede5]'>Rizal Firmansyah</a>
                 </p>
-                <p className='text-[#b1a696] text-[0.7rem]'>
+                <p className='text-center text-[#b1a696] text-[0.7rem]'>
                     This website is using <a href="#" className='text-[#f2ede5]'>cookies</a>
                 </p>
-                <p className='text-[#b1a696] text-[0.7rem]'>
-                    All rights reserved © <a href="#" className='text-[#f2ede5]'>2025</a>
+                <p className='text-right text-[#b1a696] text-[0.7rem]'>
+                    All rights reserved © <a href="#" className='text-[#f2ede5]'>2026</a>
                 </p>
             </div>
 
             <div className='footer-title w-full text-center'>
-                <h1 className='text-[18vw] font-bold'>
+                <h1 className='font-bold'>
                     Nash Studio<sub></sub>
                 </h1>
             </div>

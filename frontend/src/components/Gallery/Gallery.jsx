@@ -96,12 +96,12 @@ const Gallery = () => {
     }, []);
 
     // Generate repeating Nash Studio elements
-    const generateNashStudio = (quantity = 6) => {
+    const generateNashStudio = (quantity = 10) => {
         const studioItems = [];
-        for (let i = 1; i <= quantity; i++) {
+        for (let i = 2; i <= quantity; i++) {
             studioItems.push(
                 <h3 key={i} style={{ "--index": i }} className='tracking-tighter'>
-                    Nash Studio
+                    Build Better. Grow Faster.
                 </h3>
             );
         }
@@ -120,15 +120,15 @@ const Gallery = () => {
             </div>
 
             <div className="gallery-background">
-                <img src={gbg1} alt="Classic Nash Studio" />
+                <img src={gbg1} alt="Paket Basic Nash Studio" />
                 <div className="gallery-topText">
-                    <h4>Classic Nash Studio</h4>
-                    <h3>(Scroll)</h3>
+                    <h4>Paket Basic</h4>
+                    <h3 className="gallery-price">Mulai dari<br />Rp1.000.000</h3>
                 </div>
                 <div className="gallery-bottomText">
                     <div className='w-full flex justify-center items-center gap-0'>
                         <BsFillPlusCircleFill className='w-8 h-8 text-[#b1a696]' />
-                        <h3>Classic Nash Studio boasts refined aesthetics and a modern <br /> interior, creating an intimate retreat in a desert landscape</h3>
+                        <h3>Landing page profesional untuk memperkenalkan bisnis Anda.<br />Mulai dari Rp1.000.000</h3>
                     </div>
                     <div className="relative z-9 w-50 h-[0.1rem] bg-[#4f4b48]">
                         <div className="progress-line absolute z-10 bg-[#f4efe7] w-[33%] h-[0.1rem] top-1/2 -translate-y-1/2 left-0"></div>
@@ -137,15 +137,15 @@ const Gallery = () => {
             </div>
 
             <div id="gallery-second" className="gallery-background2">
-                <img src={gbg2} alt="Terrace Nash Studio" />
+                <img src={gbg2} alt="Paket Standard Nash Studio" />
                 <div className="gallery-topText">
-                    <h4>Terrace Nash Studio</h4>
-                    <h3>(Scroll)</h3>
+                    <h4>Paket Standard</h4>
+                    <h3 className="gallery-price">Mulai dari<br />Rp2.000.000</h3>
                 </div>
                 <div className="gallery-bottomText">
                     <div className='w-full flex justify-center items-center gap-0'>
                         <BsFillPlusCircleFill className='w-8 h-8 text-[#b1a696]' />
-                        <h3>Classic Nash Studio boasts refined aesthetics and a modern <br /> interior, creating an intimate retreat in a desert landscape</h3>
+                        <h3>Company profile lengkap dengan desain premium dan SEO dasar.<br />Mulai dari Rp2.000.000</h3>
                     </div>
                     <div className="relative z-9 w-50 h-[0.1rem] bg-[#4f4b48]">
                         <div className="progress-line absolute z-10 bg-[#f4efe7] w-[67%] h-[0.1rem] top-1/2 -translate-y-1/2 left-0"></div>
@@ -154,15 +154,15 @@ const Gallery = () => {
             </div>
 
             <div id="gallery-third" className="gallery-background2">
-                <img src={gbg3} alt="Desert Nash Studio" />
+                <img src={gbg3} alt="Paket Advanced Nash Studio" />
                 <div className="gallery-topText">
-                    <h4>Desert Nash Studio</h4>
-                    <h3>(Scroll)</h3>
+                    <h4>Paket Advanced</h4>
+                    <h3 className="gallery-price">Mulai dari<br />Rp3.000.000</h3>
                 </div>
                 <div className="gallery-bottomText">
                     <div className='w-full flex justify-center items-center gap-0'>
                         <BsFillPlusCircleFill className='w-8 h-8 text-[#b1a696]' />
-                        <h3>Classic Nash Studio boasts refined aesthetics and a modern <br /> interior, creating an intimate retreat in a desert landscape</h3>
+                        <h3>Website custom dengan fitur dinamis dan strategi konversi.<br />Mulai dari Rp3.000.000</h3>
                     </div>
                     <div className="relative z-9 w-50 h-[0.1rem] bg-[#4f4b48]">
                         <div className="progress-line absolute z-10 bg-[#f4efe7] w-[100%] h-[0.1rem] top-1/2 -translate-y-1/2 left-0"></div>

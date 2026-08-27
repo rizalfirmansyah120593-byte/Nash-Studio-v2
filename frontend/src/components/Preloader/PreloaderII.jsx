@@ -135,8 +135,8 @@ export default function PreloaderII() {
             <div className="preloader-content">
                 <div className="preloader-footer">
                     <p className="text-sm">
-                        Meet Nash Studio—modern and cozy<br />
-                        houses, in the California desert.
+                        Meet Nash Studio—where modern design <br />
+                        meets cinematic web development.
                     </p>
                 </div>
             </div>
